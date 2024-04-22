@@ -1,0 +1,272 @@
+                                    /* font import (polices) */
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@500 & family= Roboto+Slab & display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Courgette & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Cambria & display=swap');
+
+                           
+
+
+                                
+
+.navbar {                                  /* text navbar*/
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    transition: background-color 0.4s ease-out;
+}
+
+
+.nav-link {                             /*Boutons de la navbar*/
+    color: #74526C  !important;                             /* couleur des boutons de la navbar */
+    transition: color 0.3s ease !important;
+    margin-left:20px;
+    font-family: Cambria;
+    font-weight: 650;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    transition: color 0.2s ease !important;
+}
+
+
+                                /* display background color black on navbar scroll */
+
+.navbarDark {
+    background-color: #BEB2C8;                                  /* couleur de la navbar en bas*/
+    transition: background-color 0.4s ease-out;
+}
+
+.img-nav {
+    width: 130px; /* Changer la taille selon vos besoins */
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.bgimage {                           /* hero image (image de couverture) */                                               
+    height: 100vh;
+    background: #BEB2C8;                        /*Couleur image de couverture*/
+    background-size: cover;                     /*Taille de l'image de fond*/
+    position: relative;
+}
+
+
+.hero_desc {                          /*Texte titre première page de couverture*/
+    font-family:'Cambria';                      /*Police*/
+    font-size: 3rem;                            /*Taille police*/
+    font-style: initial;                        /*Style de police*/
+    line-height: 4rem;                          /*Espacement interligne*/
+    margin-bottom: 6rem;                        /*Espacement avec le texte d'en dessous*/
+    padding-right: 150px;                       /*Espacement avec le texte et le côté droit*/                         
+    padding-left: 150px;                        /*Espacement avec le texte et le côté gauche*/
+    padding-top: 210px;                         /*Espacement avec le texte d'au dessus*/
+    color: #ffffff                              /*Couleur*/
+}
+
+.hero_desc_2 {                        /*Texte sous titre première page de couverture*/
+
+    font-family:'Cambria';                      /*Police*/
+    font-size: 1.5rem;                          /*Taille police*/
+    font-weight: 550;                           /*Epaisseur de la police*/
+    margin-bottom: 0,5rem;                      /*Espacement avec le texte d'en dessous*/
+    text-align: right;                          /*Alignement du textre*/
+    padding-right: 150px;                       /*Espacement avec le texte et le côté droit*/
+    color: #ffffff                              /*Couleur*/
+}
+
+
+
+
+
+
+
+
+
+.section-title {                      /*Titre des différentes sections du site*/         
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top:100px;
+    color: #C68283;
+}
+
+.about {                              /*Texte de A propos*/
+    font-family: 'Montserrat', !important;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #BEB2C8;
+}
+                                    /* Sous titre des différentes sections du site*/
+
+.vertical-center-about { 
+    font-family: 'Montserrat', !important;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #BEB2C8;
+}
+
+
+.sous-soustitre {                             /*Sous soustitre*/
+    font-family: 'Montserrat', !important;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: initial;
+    color: #BEB2C8;
+}
+
+.video-container {
+    position: center;
+    width: 100%;
+    max-width: 1500px; /* Définissez la largeur maximale selon vos besoins */
+    margin: 0 auto; /* Pour centrer la vidéo horizontalement */
+    text-align: center; /* Centrer horizontalement le contenu */
+}
+
+.video-container video {
+    display: block; /* Assurez-vous que la vidéo occupe tout l'espace disponible */
+    max-width: 100%;
+    height: auto; 
+}
+
+.caption {
+    text-align: center; /* Centrer horizontalement le texte de la description */
+    margin-top: 20px;
+    color: #A88E51;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        /* social media icons styling */
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: rgb(203, 238, 243);
+    transition: color 0.2s ease;
+}
+
+.fab {
+    color: rgb(28, 28, 28);
+    transition: color 0.2s ease;
+}
+
+
+
+
+
+                        /* images horizontales */
+
+.row {
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+  
+
+
+
+
+
+                                        /*Je sais pas */
+
+.navbar-toggler{
+    color:#5D6776 !important;
+}
+
+
+.navBar-container{
+    max-width: 100%;min-width:0px
+}
+
+
+.section-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+.section-content{
+    display:ruby;
+}
+
+
+
+
+
+
+                            /* Styles pour la barre en bas de page */
+                            
+#footer {
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.legal-bar {
+    text-align: center; 
+    margin: 0;
+    font-size: 12px;
+    color: #5D6776;
+}
+
+.arc-en-ciel {                       /* Ajoute un dégradé arc-en-ciel pour la couleur du texte */
+    background: linear-gradient(to right, red, orange, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;             /* Pour cacher le texte d'origine */
+    padding: 5px 10px;              /* Ajoute une marge et un remplissage pour un meilleur aspect */
+    margin: 5px;
+    text-decoration: none;          /* Supprime le soulignement des liens */
+}
+
+.arc-en-ciel:hover {                /* Style du lien lorsqu'il est survolé */
+    background: linear-gradient(to right, red, orange, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+
+.vertical-center-contact {
+    margin-top: .4rem !important;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 4rem;
+    text-align: left;
+    color: #6c757d;
+}
